@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#FFF;
+}
+
+
+#instrument {
+    position: absolute;
+    top:25%; 
+	left:30%;
+	border:solid 1px #5F5F5F;
+}
+
+
+.box {
+	height:100px;
+	width:100px;
+	float:left;
+}
+
+
+
+
+
+#c {
+	background-color:#E9E9E9;
+}
+
+#d {
+	background-color:#D3D3D3;
+}
+
+#e {
+	background-color:#BDBDBD;
+}
+
+#f {
+	background-color:#A7A7A7;
+}
+
+#g {
+	background-color:#919191;
+}
+
+#a {
+	background-color:#7B7B7B;
+}
+
+#b {
+	background-color:#656565;
+}
+
+
+/*-------------Active----------------*/
+
+
+#a:active {
+	background-color:#FFF;
+}
+
+#b:active {
+	background-color:#FFF;
+}
+
+#c:active {
+	background-color:#FFF;
+}
+
+#d:active {
+	background-color:#FFF;
+}
+
+#e:active {
+	background-color:#FFF;
+}
+
+#f:active {
+	background-color:#FFF;
+}
+
+#g:active {
+	background-color:#FFF;
+}
+
+
+/*-------------Hover-----------*/
+
+#c:hover {
+	background-color:#656565;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
+#d:hover {
+	background-color:#7B7B7B;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
+#e:hover {
+	background-color:#919191;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
+#f:hover {
+	background-color:#D1D1D1;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
+#g:hover {
+	background-color:#BDBDBD;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
+#a:hover {
+	background-color:#D3D3D3;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
+#b:hover {
+	background-color:#E9E9E9;
+	cursor:url(piano-keys-11.gif),auto;
+}
+
